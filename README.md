@@ -1,5 +1,7 @@
 # pvesnapshot
 
+源码链接：https://github.com/sirpdboy/pvesnapshot
+
 这是一个为proxmox ve写的工具脚本
 
 方式一：手动下载上传命令行安装
