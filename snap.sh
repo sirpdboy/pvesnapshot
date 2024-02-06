@@ -1,7 +1,7 @@
 #!/bin/bash
 #############--Proxmox Config snapshot--##########################
-#  Author : herboy
-#  Mail: loso3000@qq.com
+#  Author : sirpdboy
+#  Mail: herboy2008@gmail.com
 #  Version: v1.0.5
 ########################################################
 
@@ -93,6 +93,7 @@ Invalidate value.Please comfirm!
 		}
 		starttime
 	PWD=`pwd`
+	[  ! -s $PWD/baksnapshot.sh ] && curl -fsSL  https://raw.githubusercontent.com/sirpdboy/pvesnapshot/master/baksnapshot.sh  > $PWD/baksnapshot.sh
 	if [  ! -s $PWD/baksnapshot.sh ] ;then
 	         whiptail --title "Warring" --msgbox "
 Warring!
